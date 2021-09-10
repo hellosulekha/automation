@@ -19,6 +19,7 @@ public class PostSteps {
     @When("^I type the message in the box$")
     public void i_type_the_message_in_the_box() throws Throwable {
         System.out.println("i_type_the_message_in_the_box");
+        System.out.println("Sulekha has commited the code first time in Git");
     }
 
     @Then("^the message should be posted$")
